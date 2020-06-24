@@ -18,7 +18,8 @@ body{
 }
 .wrapper{
   margin:auto;
-  padding-top: 10px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   font-size: smaller;
   width: 90%;
 }
