@@ -18,7 +18,7 @@ body{
 }
 .wrapper{
   margin:auto;
-  padding-top: 100px;
+  padding-top: 10px;
   font-size: smaller;
   width: 90%;
 }
@@ -74,6 +74,7 @@ span.amount{
   font-size: larger;
   font-weight: 700;
 }
+
 .r2c2 > ul{
   list-style: none;
   font-size: smaller;
@@ -102,8 +103,18 @@ span.amount{
   .wrapper{
     margin:auto;
     width: 40%;
-    padding-top: 100px;
+    height: 420px;
     display: grid;
     grid-template-columns: 50% 50%;
+    position: absolute;
+    margin-left: -20%;
+    margin-top: -210px;
+    top: 50%;
+    left: 50%;
+  }
+  .btn_signup:hover{
+    background-color: hsl(59, 77%, 66%);
+    color: hsl(179, 76%, 43%);
+  
   }
 }
