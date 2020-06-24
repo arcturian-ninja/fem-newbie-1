@@ -82,7 +82,7 @@ span.amount{
   padding: 0;
 }
 
-@media only screen and (min-width: 375px) and (max-width: 1440px) {
+@media only screen and (min-width: 376px) and (max-width: 1440px) {
   
 .r1c1{
   background-color: white;
@@ -114,7 +114,6 @@ span.amount{
   }
   .btn_signup:hover{
     background-color: hsl(59, 77%, 66%);
-    color: hsl(179, 76%, 43%);
-  
+    color: hsl(179, 76%, 43%);  
   }
 }
